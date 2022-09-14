@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+	font-family: "Lato";
+	color: darkslategray;
+	font-weight: 400;
+	font-size: medium;
+}
+
+h1 {
+	font-family: 'Larsseit';
+	font-size: xx-large;
+	color: brown;
+}
+
+.main-title {
+	color: chocolate;
+}
+
+h2 {
+	font-family: 'Roboto';
+	font-size: larger;
+	color: green;
+	font-weight: 900;
+}
+
+.wool h2 {
+	color: crimson;
+}
+
+.wool .wool-types {
+	color: darkmagenta;
+}
+
+.text {
+	color:darkolivegreen;
+}
+
+.wool-advantages.text {
+	color: darkgoldenrod;
+}
+
+.wool-advantages * {
+	color: firebrick;
+}
+
+.wool > ul {
+	color: midnightblue;
+}
+
+#acrylic {
+	color: orchid;
+}
+
+.semi-wool-advantages ~ p {
+	color: orangered;
+}
+
+.semi-wool-disadvantages + p {
+	color: purple;
+}
